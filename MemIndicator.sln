@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0EB73336-18B5-4D74-8799-0708D694FAD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemIndicator", "src\MemIndicator\MemIndicator.csproj", "{26E4ADA9-C4A0-48D8-AC84-3FC9947FF1B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{80E61168-F7C4-4D81-9E33-574824B99F29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemIndicator.Tests", "tests\MemIndicator.Tests\MemIndicator.Tests.csproj", "{AF29E000-81B6-45D3-B23E-BCC16C7867A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26E4ADA9-C4A0-48D8-AC84-3FC9947FF1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E4ADA9-C4A0-48D8-AC84-3FC9947FF1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E4ADA9-C4A0-48D8-AC84-3FC9947FF1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E4ADA9-C4A0-48D8-AC84-3FC9947FF1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF29E000-81B6-45D3-B23E-BCC16C7867A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF29E000-81B6-45D3-B23E-BCC16C7867A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF29E000-81B6-45D3-B23E-BCC16C7867A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF29E000-81B6-45D3-B23E-BCC16C7867A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26E4ADA9-C4A0-48D8-AC84-3FC9947FF1B5} = {0EB73336-18B5-4D74-8799-0708D694FAD1}
+		{AF29E000-81B6-45D3-B23E-BCC16C7867A8} = {80E61168-F7C4-4D81-9E33-574824B99F29}
+	EndGlobalSection
+EndGlobal
